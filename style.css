@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+#header .container {
+    max-width: 1000px;
+    padding-top: 50px;
+}
+
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-text{
+    position: absolute;
+    right: 0;
+}
+.container-text ul li{
+    display: inline;
+    font-size: 24px;
+    margin: 5px;
+    justify-content: center;
+
+}
+
+.info_content{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.topic{
+    width: 250px;
+    height: 250px;
+}
+.info_topic > img{
+    padding: 20px;
+}
+.content{
+    justify-content: center;
+}
