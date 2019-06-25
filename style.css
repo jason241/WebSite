@@ -29,6 +29,7 @@
 }
 
 .info_content{
+    width: 100%;
     display: flex;
     justify-content: center;
     padding-top: 50px;
@@ -42,4 +43,10 @@
 }
 .content{
     justify-content: center;
+}
+.carousel_content{
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    width: 50%;
 }
