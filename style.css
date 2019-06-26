@@ -29,6 +29,7 @@
 }
 
 .info_content{
+    width: 100%;
     display: flex;
     justify-content: center;
     padding-top: 50px;
@@ -38,8 +39,14 @@
     height: 250px;
 }
 .info_topic > img{
-    padding: 20px;
+    padding: 30px;
 }
 .content{
     justify-content: center;
+}
+.carousel_content{
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    width: 70%;
 }
